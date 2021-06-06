@@ -1,16 +1,16 @@
 #include "pch.h"
 
-#include "../Mower.h"
-#include "../Mower.cpp"
-#include "../action.h"
-#include "../lawn.h"
-#include "../position.h"
-#include "../direction.h"
-#include "../FileReader.h"
-#include "../FileReader.cpp"
-#include "../MowingSimulation.h"
-#include "../MowingSimulation.cpp"
-#include "../Except.h"
+#include "../src/Mower.h"
+#include "../src/Mower.cpp"
+#include "../src/action.h"
+#include "../src/lawn.h"
+#include "../src/position.h"
+#include "../src/direction.h"
+#include "../src/FileReader.h"
+#include "../src/FileReader.cpp"
+#include "../src/MowingSimulation.h"
+#include "../src/MowingSimulation.cpp"
+#include "../src/Except.h"
 
 /***TEST MOWER***/
 TEST(MowerConstruction, MowerConstructionWithActions) {

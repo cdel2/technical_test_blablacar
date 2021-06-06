@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\action.h" />
+    <ClInclude Include="src\direction.h" />
+    <ClInclude Include="src\Except.h" />
+    <ClInclude Include="src\FileReader.h" />
+    <ClInclude Include="src\lawn.h" />
+    <ClInclude Include="src\Mower.h" />
+    <ClInclude Include="src\MowingSimulation.h" />
+    <ClInclude Include="src\position.h" />
+    <ClInclude Include="src\threading.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\FileReader.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Mower.cpp" />
+    <ClCompile Include="src\MowingSimulation.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -139,23 +156,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="FileReader.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Mower.cpp" />
-    <ClCompile Include="MowingSimulation.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="action.h" />
-    <ClInclude Include="direction.h" />
-    <ClInclude Include="Except.h" />
-    <ClInclude Include="FileReader.h" />
-    <ClInclude Include="lawn.h" />
-    <ClInclude Include="Mower.h" />
-    <ClInclude Include="MowingSimulation.h" />
-    <ClInclude Include="position.h" />
-    <ClInclude Include="threading.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

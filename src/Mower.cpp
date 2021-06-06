@@ -7,14 +7,12 @@ using namespace std;
 void Mower::turnRight() {
 	int i = dir + 1;
 	dir = (Direction)(i > 3 ? 0 : i);
-	cout << "direction : " << dir << endl;
 }
 
 
 void Mower::turnLeft() {
 	int i = dir - 1;
 	dir = (Direction)(i < 0 ? 3 : i);
-	cout << "direction : " << dir << endl;
 }
 
 void Mower::moveForward() {
@@ -32,6 +30,4 @@ void Mower::moveForward() {
 			--pos.y;
 			break;
 	}
-	cout << "position : " << pos.x << " " << pos.y << endl;
-
 }
